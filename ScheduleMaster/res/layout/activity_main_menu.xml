@@ -9,20 +9,19 @@
     tools:context=".MainMenu" >
 
     <TextView
-        android:id="@+id/tviewMainMenuDescription"
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/main_menu_description" />
- 
+
     <Button
-        android:id="@+id/btnCreateNewEventItemWizard"
+        android:id="@+id/button1"
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
-        android:layout_alignTop="@+id/tviewMainMenuDescription"
+        android:layout_alignTop="@+id/textView1"
         android:layout_marginRight="19dp"
-        android:onClick="CreateNewEventItem"
         android:text="+" />
 
 </RelativeLayout>
